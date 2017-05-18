@@ -7,5 +7,6 @@ namespace CrmLogic.BaseItems
     interface IItemModel:IModel
     {
         string Name { get; set; } 
+        string Description { get; set; }
     }
 }

@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using CrmLogic;
 
 namespace BowenCrm
 {
@@ -19,6 +20,8 @@ namespace BowenCrm
                 .UseStartup<Startup>()
                 .UseApplicationInsights()
                 .Build();
+
+            AutoMapBson.MapModels();//注册Model为BSON
 
             host.Run();
         }
