@@ -1,0 +1,11 @@
+E:\source\bow\server\BowenCrm\BowenCrm\bin\Debug\netcoreapp1.1\BowenCrm.deps.json
+E:\source\bow\server\BowenCrm\BowenCrm\bin\Debug\netcoreapp1.1\BowenCrm.runtimeconfig.json
+E:\source\bow\server\BowenCrm\BowenCrm\bin\Debug\netcoreapp1.1\BowenCrm.runtimeconfig.dev.json
+E:\source\bow\server\BowenCrm\BowenCrm\obj\Debug\netcoreapp1.1\BowenCrm.csprojResolveAssemblyReference.cache
+E:\source\bow\server\BowenCrm\BowenCrm\obj\Debug\netcoreapp1.1\BowenCrm.AssemblyInfo.cs
+E:\source\bow\server\BowenCrm\BowenCrm\bin\Debug\netcoreapp1.1\BowenCrm.dll
+E:\source\bow\server\BowenCrm\BowenCrm\bin\Debug\netcoreapp1.1\BowenCrm.pdb
+E:\source\bow\server\BowenCrm\BowenCrm\bin\Debug\netcoreapp1.1\CrmLogic.dll
+E:\source\bow\server\BowenCrm\BowenCrm\bin\Debug\netcoreapp1.1\CrmLogic.pdb
+E:\source\bow\server\BowenCrm\BowenCrm\obj\Debug\netcoreapp1.1\BowenCrm.dll
+E:\source\bow\server\BowenCrm\BowenCrm\obj\Debug\netcoreapp1.1\BowenCrm.pdb

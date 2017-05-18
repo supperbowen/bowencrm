@@ -1,0 +1,7 @@
+E:\source\bow\server\BowenCrm\CrmLogic\bin\Debug\netcoreapp1.1\CrmLogic.deps.json
+E:\source\bow\server\BowenCrm\CrmLogic\obj\Debug\netcoreapp1.1\CrmLogic.csprojResolveAssemblyReference.cache
+E:\source\bow\server\BowenCrm\CrmLogic\obj\Debug\netcoreapp1.1\CrmLogic.AssemblyInfo.cs
+E:\source\bow\server\BowenCrm\CrmLogic\bin\Debug\netcoreapp1.1\CrmLogic.dll
+E:\source\bow\server\BowenCrm\CrmLogic\bin\Debug\netcoreapp1.1\CrmLogic.pdb
+E:\source\bow\server\BowenCrm\CrmLogic\obj\Debug\netcoreapp1.1\CrmLogic.dll
+E:\source\bow\server\BowenCrm\CrmLogic\obj\Debug\netcoreapp1.1\CrmLogic.pdb
