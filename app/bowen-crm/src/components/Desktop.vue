@@ -1,23 +1,16 @@
 <template>
   <div>
-    <el-row >
-      Bowen's Crm
-    </el-row>
-    <el-row>
-      <el-col :xs="2" :md="2" :sm="2" :lg="2">
-
-      </el-col>
-      <el-col  :xs="10" :md="10" :sm="10" :lg="10">
-        <el-card class="box-card">
-          <div class="text item">
-            梁灿伦<br>15914321678
-          </div>
-        </el-card>
-      </el-col>
-    </el-row>
-    <el-row>
-      footer
-    </el-row>
+    <div class="header">
+      <div class="fl">Bowen's crm</div>
+      <a class="fr">退出</a>
+    </div>
+    <div class="main">
+      <div class="main-nav fl"></div>
+      <div class="main-content fr"></div>
+    </div>
+    <div class="footer">
+      mini crm for test
+    </div>
   </div>
 </template>
 
@@ -33,6 +26,28 @@
 </script>
 
 <style scoped>
+  .header{
+    box-sizing: border-box;
+    width:100%;
+    height:50px;
+    background-color: #f7ba2a;
+    line-height: 50px;
+    vertical-align: middle;
+    padding: 0 50px;
+  }
+  .main{
+    min-height: 200px;
+    height:80%;
+    height:-moz-calc(100% - 100px);
+    height:-webkit-calc(100% - 100px);
+    height:calc(100% - 100px);
+    width:100%;
+  }
+  .footer{
+    height:50px;
+    width:100%;
+    background-color: #f7ba2a;
+  }
 
 </style>
 
