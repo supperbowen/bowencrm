@@ -7382,6 +7382,9 @@
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
+      "files": {
+        "lib/netcoreapp1.1/CrmLogic.dll": "E:\\source\\bow\\server\\BowenCrm\\CrmLogic\\bin\\placeholder\\netcoreapp1.1\\CrmLogic.dll"
+      },
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {}
@@ -7391,14 +7394,13 @@
     "frameworks": {
       "netcoreapp1.1": {
         "dependencies": {
+          "Microsoft.NETCore.App": {
+            "target": "Package",
+            "version": "1.1.2"
+          },
           "MongoDB.Driver": {
             "target": "Package",
             "version": "2.4.3"
-          },
-          "Microsoft.NETCore.App": {
-            "target": "Package",
-            "version": "1.1.2",
-            "autoReferenced": true
           }
         }
       }
