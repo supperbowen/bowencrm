@@ -13,6 +13,7 @@ namespace BowenCrm.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
+            Console.WriteLine("get values called");
             return new string[] { "value1", "value2" };
         }
 
