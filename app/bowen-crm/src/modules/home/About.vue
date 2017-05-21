@@ -1,10 +1,17 @@
 <template>
-  <div>
-    <h3>系统功能列表！</h3>
-    <ul>
-      <li v-for="item in items"> {{item}}</li>
-    </ul>
+  <div class="about">
 
+    <!--<el-steps :space="100" direction="vertical" :active="1">
+      <el-step title="采用技术 vue.js, .netcore, mongodb"></el-step>
+      <el-step title="github: https://github.com/supperbowen"></el-step>
+      <el-step title="blog: www.liangcanl.com"></el-step>
+      <el-step title="QQ：452562076 (梁灿伦)"></el-step>
+    </el-steps>-->
+
+    <div class="block">
+      <span class="demonstration">采用技术</span>
+      <div>vue.js, .netcore, mongodb</div>
+    </div>
   </div>
 </template>
 
@@ -28,9 +35,11 @@
 <style lang="scss" scoped>
   @import "src/style/mixin";
 
+  .about{
+    padding: 15px;
+  }
   li{
     font-size: 15px;
-    padding: 15px;
     font-weight: bold;
     color: darkblue;
   }
