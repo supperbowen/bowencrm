@@ -4,9 +4,11 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-default/index.css'
+import 'element-ui/lib/theme-default/index.css'
 
-import '@/theme/index.css'
-import '@/style/common.scss'
+import './style/common.scss'
+
 
 Vue.config.productionTip = false
 
