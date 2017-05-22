@@ -1,32 +1,34 @@
 <template>
-  <div>
-    <div class="header">
-      <div class="fl">{{msg}}</div>
-      <a class="fr">退出</a>
+    <div class="desktop">
+        <div class="header">
+            <!--<div class="fl">{{msg}}</div>-->
+            <a class="fr">
+                <i class="el-icon-d-arrow-left"></i>
+                退出
+            </a>
+
+        </div>
+
+        <div class="main-nav">
+            <main-nav :navs="navs"></main-nav>
+        </div>
+
+        <div class="main">
+
+            <div class="main-content fr">
+                <router-view></router-view>
+            </div>
+        </div>
+        <footer class="footer">
+            <i>2017 C Bowen's Crm by 梁灿伦</i>
+        </footer>
     </div>
-    <div class="main">
-      <div class="main-nav fl">
-        <el-menu mode="vertical" default-active="1" class="el-menu-vertical-demo">
-          <el-menu-item index="1" v-for="nav in navs" :key="nav.route">
-            <router-link :to="nav.route">
-              <i class="el-icon-message"></i>
-              {{nav.title}}
-            </router-link>
-          </el-menu-item>
-        </el-menu>
-      </div>
-      <div class="main-content fr">
-        <router-view></router-view>
-      </div>
-    </div>
-    <footer class="footer">
-      by 梁灿伦 2017-5-21
-    </footer>
-  </div>
 </template>
 
 <script>
+  import MainNav from "./children/MainNav";
   export default {
+    components: {MainNav},
     name: 'desktop',
     data () {
       return {
@@ -45,61 +47,67 @@
 </script>
 
 <style lang="scss" scoped>
-  @import "src/style/mixin";
+    @import "src/style/mixin";
 
-  .header {
-    box-sizing: border-box;
-    width: 100%;
-    height: 50px;
-    background-color: $vi-color;
-    line-height: 50px;
-    vertical-align: middle;
-    padding: 0 20px;
-  }
-
-  .main {
-    box-sizing: border-box;
-    min-height: 200px;
-    height: 80%;
-    height: -moz-calc(100% - 75px);
-    height: -webkit-calc(100% - 75px);
-    height: calc(100% - 75px);
-    width: 100%;
-    .main-nav {
-
-      width: 250px;
-      border-right: 2px solid $vi-color;
-      text-align: left;
-
-      font-size: 15px;
-      li {
-        border-bottom: solid 1px #fefefe;
-        padding: 15px 0 3px 0;
-      }
+    .desktop {
+        height: 100%;
     }
-    .main-content {
-      width: -moz-calc(100% - 250px);
-      width: -webkit-calc(100% - 250px);
-      width: calc(100% - 250px);
-      border-right: 3px solid $vi-color;
-      height: 100%;
-      text-align: left;
-      padding: 20px;
+
+    .header {
+        box-sizing: border-box;
+        width: 100%;
+        height: 39px;
+        background-color: #1f272f;
+        line-height: 39px;
+        vertical-align: middle;
+        padding: 0 20px;
+        padding-left: 250px;
+        box-shadow: 2px 2px 2px #8197a0;
+
+        &>a{
+            color: white;
+            cursor: pointer;
+        }
+
+        i{
+            color: white;
+            font-size: 10px;
+            line-height: 37px;
+            vertical-align: middle;
+            /*padding-right: 10px;*/
+        }
     }
-  }
 
-  .footer {
-    height: 25px;
-    width: 100%;
-    line-height: 25px;
-    vertical-align: middle;
-    background-color: $vi-color;
+    .main {
+        box-sizing: border-box;
+        min-height: 200px;
+        height: 80%;
+        height: -moz-calc(100% - 78px);
+        height: -webkit-calc(100% - 78px);
+        height: calc(100% - 78px);
+        width: 100%;
+        padding-left: 250px;
+        .main-content {
+            width: 100%;
+            height: 100%;
+            text-align: left;
+            padding: 20px;
+        }
+    }
 
-    font-size: 12px;
-    text-align: left;
-    padding-left: 15px;
-    font-weight: bolder;
-  }
+    .footer {
+        height: 39px;
+        width: 100%;
+        background-color: #303942;
+        padding-left: 250px;
+        i {
+            line-height: 28px;
+            vertical-align: middle;
+            font-size: 12px;
+            color: #666666;
+            text-align: center;
+        }
+    }
 
 </style>
 
