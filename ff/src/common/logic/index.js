@@ -1,1 +1,0 @@
-export BaseLogic from './nsw-data-logic';
