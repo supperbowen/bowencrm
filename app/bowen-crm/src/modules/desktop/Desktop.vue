@@ -35,10 +35,10 @@
         msg: 'Bowen Crm',
         navs: [
           {route: '/hello', title: '欢迎'},
-          {route: '/employee', title: '员工信息'},
+          {route: '/user', title: '员工信息'},
           {route: '/customer', title: '客户信息'},
-          {route: '/activies', title: '客户活动'},
-          {route: '/quote', title: '意向订单'},
+          {route: '/activity', title: '客户活动'},
+          {route: '/quotation', title: '意向订单'},
           {route: '/about', title: '关于'}
         ]
       }
@@ -74,7 +74,6 @@
             font-size: 10px;
             line-height: 37px;
             vertical-align: middle;
-            /*padding-right: 10px;*/
         }
     }
 

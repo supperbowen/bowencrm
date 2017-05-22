@@ -72,7 +72,27 @@
             a, i {
                 color: white;
             }
+
+            &::after{
+                content: '';
+                display: block;
+                position: absolute;
+                top: 14px;
+                width: 12px;
+                height: 12px;
+                background-color: white;
+                transform: rotate(40deg);
+                left: 240px;
+            }
         }
+
+        a{
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+        }
+
+
     }
 
     .side-line{

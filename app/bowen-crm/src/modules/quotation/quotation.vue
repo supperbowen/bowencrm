@@ -1,6 +1,6 @@
 <template>
     <div>
-        客户列表！
+        意向订单列表！
     </div>
     <!--<router-view></router-view>-->
 </template>

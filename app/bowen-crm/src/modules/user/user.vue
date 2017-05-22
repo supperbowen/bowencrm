@@ -1,8 +1,8 @@
 <template>
     <div>
-        客户列表！
+        用列列表！
+        <!--<router-view></router-view>-->
     </div>
-    <!--<router-view></router-view>-->
 </template>
 
 <script>
