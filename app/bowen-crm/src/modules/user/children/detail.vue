@@ -111,6 +111,6 @@
 <style lang="scss" scoped>
     @import "src/style/mixin";
     .el-form{
-        max-width: 500px;
+        max-width: 600px;
     }
 </style>
