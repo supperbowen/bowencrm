@@ -5,6 +5,8 @@ import About from '@/modules/home/About'
 import Hello from '@/components/Hello'
 import Customer from '@/modules/customer/customer'
 import User from '@/modules/user/user'
+import UserList from '@/modules/user/children/list'
+import UserDetail from '@/modules/user/children/detail'
 import Activity from '@/modules/activity/activity'
 import Quotation from '@/modules/quotation/quotation'
 
@@ -23,6 +25,23 @@ export default new Router({
           component: Hello
         },
         {
+          path: '/user',
+          name: 'crm.user',
+          component: User,
+          children:[
+            {
+              path: '',
+              name: 'crm.user.list',
+              component: UserList,
+            },
+            {
+              path: 'detail',
+              name: 'crm.user.detail',
+              component: UserDetail,
+            }
+          ]
+        },
+        {
           path: '/about',
           name: 'crm.About',
           component: About
@@ -31,11 +50,6 @@ export default new Router({
           path: '/customer',
           name: 'crm.customer',
           component: Customer
-        },
-        {
-          path: '/user',
-          name: 'crm.user',
-          component: User
         },
         {
           path: '/activity',

@@ -1,7 +1,7 @@
 <template>
     <div>
-        用列列表！
-        <!--<router-view></router-view>-->
+        <!--用列列表！-->
+        <router-view></router-view>
     </div>
 </template>
 
