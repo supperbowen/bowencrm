@@ -63,12 +63,10 @@
         padding: 0 20px;
         padding-left: 250px;
         box-shadow: 2px 2px 2px #8197a0;
-
         &>a{
             color: white;
             cursor: pointer;
         }
-
         i{
             color: white;
             font-size: 10px;
@@ -81,21 +79,24 @@
         box-sizing: border-box;
         min-height: 200px;
         height: 80%;
-        height: -moz-calc(100% - 78px);
-        height: -webkit-calc(100% - 78px);
-        height: calc(100% - 78px);
+        height: -moz-calc(100% - 64px);
+        height: -webkit-calc(100% - 64px);
+        height: calc(100% - 64px);
         width: 100%;
-        padding-left: 250px;
+        padding-left: 190px;
+
         .main-content {
             width: 100%;
             height: 100%;
             text-align: left;
             padding: 20px;
+            overflow-y: auto;
+            overflow-x: hidden;
         }
     }
 
     .footer {
-        height: 39px;
+        height: 25px;
         width: 100%;
         background-color: #303942;
         padding-left: 250px;

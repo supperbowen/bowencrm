@@ -1,8 +1,10 @@
 <template>
     <div class="nav">
-        <div class="logo">
-            <img src="../../../assets/logo.png">
-        </div>
+        <router-link to="/hello">
+            <div class="logo">
+                <img src="../../../assets/logo.png">
+            </div>
+        </router-link>
         <div class="menus">
             <el-menu mode="vertical" default-active="1" class="el-menu-vertical-demo">
                 <el-menu-item index="1" v-for="nav in navs" :key="nav.route">
@@ -12,7 +14,6 @@
                     </router-link>
                 </el-menu-item>
             </el-menu>
-
         </div>
         <div class="side-line"></div>
     </div>
@@ -38,7 +39,8 @@
         background-color: #1f272f;
         padding-top: 10px;
         padding-left: 25px;
-        img{
+        cursor: pointer;
+        img {
             height: 53px;
         }
     }
@@ -46,7 +48,7 @@
     .nav {
         position: absolute;
         top: 0;
-        width: 250px;
+        width: 190px;
         padding-left: 4px;
         height: 100%;
         background-color: #303942;
@@ -58,7 +60,7 @@
         border-bottom: 1px solid #1f272f;
     }
 
-    .el-menu-item{
+    .el-menu-item {
         border-bottom: solid 1px #3a444d;
         border-top: solid 1px #1f272f;
         height: 42px;
@@ -67,13 +69,13 @@
             color: #939da8;
         }
 
-        &:hover{
+        &:hover {
             background-color: #28a9e3;
             a, i {
                 color: white;
             }
 
-            &::after{
+            &::after {
                 content: '';
                 display: block;
                 position: absolute;
@@ -82,20 +84,17 @@
                 height: 12px;
                 background-color: white;
                 transform: rotate(40deg);
-                left: 240px;
+                left: 180px;
             }
         }
-
-        a{
+        a {
             display: inline-block;
             width: 100%;
             height: 100%;
         }
-
-
     }
 
-    .side-line{
+    .side-line {
         height: 100%;
         position: absolute;
         top: 0px;
