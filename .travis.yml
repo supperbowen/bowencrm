@@ -4,5 +4,5 @@ node_js:
   - "stable"
 sudo: false
 script:
-- npm install --customPath=/app/bowen-crm/node_modules
+- npm install --prefix ./app/bowen-crm
 - npm run build
