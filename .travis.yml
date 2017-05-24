@@ -4,7 +4,7 @@ node_js:
   - "stable"
 sudo: false
 script:
-- cd ./app/bowen-crm
+- cd app/bowen-crm
 - npm install
 - npm run build
 - cd ../../
