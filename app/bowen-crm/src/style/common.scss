@@ -1,78 +1,112 @@
 @charset "UTF-8";
-body, div, span, header, footer, nav, section, aside, article, ul, dl, dt, dd, li, a, p, h1, h2, h3, h4, h5, h6, i, b, textarea, button, input, select, figure, figcaption {
-	padding: 0;
-	margin: 0;
-	list-style: none;
-	font-style: normal;
-	text-decoration: none;
-	border: none;
-	color: #333;
-	box-sizing: border-box;
-	font-family: "Microsoft Yahei", sans-serif;
-	-webkit-tap-highlight-color: transparent;
-	-webkit-font-smoothing: antialiased;
-	&:focus {
-		outline: none;
-	}
+body,
+div,
+span,
+header,
+footer,
+nav,
+section,
+aside,
+article,
+ul,
+dl,
+dt,
+dd,
+li,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+i,
+b,
+textarea,
+button,
+input,
+select,
+figure,
+figcaption {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-style: normal;
+    text-decoration: none;
+    border: none;
+    color: #333;
+    box-sizing: border-box;
+    font-family: "Microsoft Yahei", sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    &:focus {
+        outline: none;
+    }
 }
 
-html, body{
-  height: 100%;
-  margin: 0;
-  padding: 0;
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-input[type="button"], input[type="submit"], input[type="search"], input[type="reset"] {
-	-webkit-appearance: none;
+input[type="button"],
+input[type="submit"],
+input[type="search"],
+input[type="reset"] {
+    -webkit-appearance: none;
 }
 
-textarea { -webkit-appearance: none;}
-
-html,body{
-	height: 100%;
-	width: 100%;
-	background-color: #F5F5F5;
+textarea {
+    -webkit-appearance: none;
 }
 
-
-.clear:after{
-	content: '';
-	display: block;
-	clear: both;
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #F5F5F5;
 }
 
-.clear{
-	zoom:1;
+.clear:after {
+    content: '';
+    display: block;
+    clear: both;
 }
 
-.back_img{
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
+.clear {
+    zoom: 1;
 }
 
-.margin{
-	margin: 0 auto;
+.back_img {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
-.fl{
-	float: left;
+.margin {
+    margin: 0 auto;
 }
 
-.fr{
-	float: right;
+.fl {
+    float: left;
 }
 
-.hide{
-	display: none;
+.fr {
+    float: right;
 }
 
-.show{
-	display: block;
+.hide {
+    display: none;
 }
 
-.ellipsis{
-	overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: nowrap;
+.show {
+    display: block;
 }
 
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
