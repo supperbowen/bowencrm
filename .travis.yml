@@ -6,3 +6,4 @@ sudo: false
 script:
 - npm install --prefix ./app/bowen-crm
 - npm run build
+- npm run test
