@@ -1,0 +1,20 @@
+{
+  "name": "bowencrm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"build":"node app/bowen-crm/build/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supperbowen/bowencrm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/supperbowen/bowencrm/issues"
+  },
+  "homepage": "https://github.com/supperbowen/bowencrm#readme"
+}
